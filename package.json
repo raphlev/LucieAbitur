@@ -1,20 +1,25 @@
 {
-  "name": "MyWEB",
+  "name": "LUCIE",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphlev/LucieAbitur.git"
   },
-  "devDependencies": {
-    "@babel/core": "7.2.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphlev/LucieAbitur/issues"
   },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": []
+  "homepage": "https://github.com/raphlev/LucieAbitur#readme"
 }
