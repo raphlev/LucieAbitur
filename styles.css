@@ -1,20 +1,21 @@
-/*
-Color Palette used: 
-
-#003049 ~> Prussian Blue 
-#D62828 ~> Maximum Red 
-#F77F00 ~> Orange
-#EAE2B7 ~> Lemon Meringue
-
-*/
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   line-height: 1.5;
 }
-
+body {
+  background-color: #270b82;
+  margin: 7px;
+}
+#intro{
+  display: flex;
+  margin-bottom: -15px;
+}
+#typo {
+  color: #270b82;
+  font-size: 1px;
+}
 #wrapper {
   background-color: #003049;
   overflow: hidden;
@@ -22,14 +23,12 @@ Color Palette used:
   border: solid black 4px;
   border-radius: 0 0 10px 10px;
 }
-
 #logo {
   background-color: black;
   border-radius: 0 0 10px 10px;
   color: #d62828;
   padding: 10px;
 }
-
 #flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -38,34 +37,24 @@ Color Palette used:
   align-items: center;
   justify-content: center;
 }
-
 .flex-item {
   flex: 1 1 25%;
   list-style-type: none;
   padding: 10px;
 }
-
 a {
   color: #3428d6;
   text-shadow: 1px 1px 1px black;
   font-weight: bold;
 }
-
 a:hover {
   color: #ff0404;
   transition-duration: 0.4s;
 }
-
-body {
-  background-color: #270b82;
-  margin: 7px;
-}
-
 hr.rounded {
   border: 10px solid #f77f00;
   border-radius: 10px;
 }
-
 .separation {
   background-color: #003049;
   text-align: center;
@@ -77,29 +66,24 @@ hr.rounded {
   font-weight: bold;
   font-size: 1.5em;
 }
-
 #section-flex {
   display: flex;
   flex-wrap: wrap;
   margin-top:15px;
 }
-
 #section-flex section {
   flex: 1 1 100%;
   margin: 2px;
 }
-
 #section-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 16px;
 }
-
 #section-grid section {
   /*flex: 1 1 33%;*/
   margin: 2px;
 }
-
 section div {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -107,7 +91,6 @@ section div {
   border: solid black 2px;
   border-radius: 10px;
 }
-
 section div iframe {
   left: 0;
   top: 0;
@@ -115,27 +98,20 @@ section div iframe {
   width: 100%;
   position: absolute;
 }
-
 #section-flex section {
   margin-bottom: 7px;
 }
-
 footer
 {
-  position: relative;
 	display: flex;
 	justify-content: center;
-  bottom: -7px;
   font-weight: bold;
   margin-left: 7px;
   margin-right: 7px;
   color: #8a2435;
   height: 100%;
   width: 100%;
-  align-items: center;
-
 }
-
 footer a {
   color: #8a2435;
   text-shadow: 1px 1px 1px black;
