@@ -124,7 +124,7 @@ footer
 {
   position: relative;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
   bottom: -7px;
   font-weight: bold;
   margin-left: 7px;
@@ -139,4 +139,5 @@ footer
 footer a {
   color: #8a2435;
   text-shadow: 1px 1px 1px black;
+  margin-left: 5px;
 }
