@@ -9,8 +9,8 @@ body {
   margin: 7px;
 }
 #intro{
-  display: flex;
-  margin-bottom: -15px;
+  position: absolute;
+  margin: 50px;
 }
 #typo {
   color: #270b82;
